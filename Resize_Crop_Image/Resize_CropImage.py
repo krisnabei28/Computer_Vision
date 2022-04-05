@@ -1,6 +1,6 @@
 import cv2 as cv
 
-loadImage = cv.imread('/home/krisnabei/Documents/Dokumen_Krisna/DeepLearning/Code/ImageDataSet/Picture05.png')
+loadImage = cv.imread('../Image08.png')
 
 imageResize = cv.resize(loadImage,(250,200))
 imageCrop = loadImage[100:300,200:500]
