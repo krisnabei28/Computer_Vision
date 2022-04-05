@@ -1,6 +1,6 @@
 import cv2
  
-image1 = cv2.imread('/home/krisnabei/Documents/Dokumen_Krisna/DeepLearning/Code/ImageDataSet/Picture04.jpg')
+image1 = cv2.imread('../Image10.jpg')
 img = cv2.cvtColor(image1, cv2.COLOR_BGR2GRAY)
 
 ret, thresh1 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY)
