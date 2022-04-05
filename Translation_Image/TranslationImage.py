@@ -2,7 +2,7 @@
 import cv2 as cv
 import numpy as np
   
-image = cv.imread('/home/krisnabei/Documents/Dokumen_Krisna/DeepLearning/Code/ImageDataSet/Picture06.jpg')
+image = cv.imread('../Image12.jpg')
 
 height, width = image.shape[:2]
   
