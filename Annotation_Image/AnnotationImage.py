@@ -1,6 +1,6 @@
 import cv2 as cv
 
-loadImage = cv.imread('/home/krisnabei/Documents/Dokumen_Krisna/DeepLearning/Code/ImageDataSet/sample.jpg')
+loadImage = cv.imread('.../sample.jpg')
 
 #Copy Image
 lineImage = loadImage.copy()
