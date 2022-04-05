@@ -1,6 +1,6 @@
 import cv2 as cv
 
-loadImage = cv.imread('/home/krisnabei/Documents/Dokumen_Krisna/DeepLearning/Code/Image/openCV.png')
+loadImage = cv.imread('../Image04.jpg')
 loadImage = cv.resize(loadImage, (720, 620))
 
 cv.imshow('OpencCV Python - Image', loadImage)

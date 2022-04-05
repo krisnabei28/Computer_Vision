@@ -1,6 +1,6 @@
 import cv2 as cv
 
-loadVideo = cv.VideoCapture('/home/krisnabei/Documents/Dokumen_Krisna/DeepLearning/Code/ImageDataSet/cat.mp4')
+loadVideo = cv.VideoCapture('../Video01.mp4')
 
 while True:
     isTrue, vid = loadVideo.read()
