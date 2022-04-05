@@ -1,6 +1,6 @@
 import cv2 as cv
 
-image = cv.imread('../Image02.jpg')
+image = cv.imread('../Image02.png')
 image= cv.resize(image,(1080,720))
 img_gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 img_gray= cv.resize(img_gray,(1080,720))
