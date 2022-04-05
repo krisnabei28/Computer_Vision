@@ -23,7 +23,7 @@ def convolution(image, kernel):
 
 smallBlur = np.ones((11, 11), dtype="float") * (1.0 / (11 * 11))
 
-image = cv.imread('/home/krisnabei/Documents/Dokumen_Krisna/Computer_Vision/Code/micky.jpg')
+image = cv.imread('../micky.jpg')
 image = cv.resize(image,(420,420))
 gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 convoleOutput = convolution(gray, smallBlur)
