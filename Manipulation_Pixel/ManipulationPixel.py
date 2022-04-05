@@ -1,6 +1,6 @@
 import cv2 as cv
 
-loadImage = cv.imread('/home/krisnabei/Documents/Dokumen_Krisna/DeepLearning/Code/ImageDataSet/flag.png')
+loadImage = cv.imread('../flag.png')
 loadImage = cv.resize(loadImage,(720, 450))
 copyImage = loadImage.copy()
 for i in range(0, copyImage.shape[0]):
