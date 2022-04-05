@@ -1,6 +1,6 @@
 import cv2 as cv
 
-loadImage = cv.imread('../flag.png')
+loadImage = cv.imread('../Image05.jpg')
 loadImage = cv.resize(loadImage,(720, 450))
 copyImage = loadImage.copy()
 for i in range(0, copyImage.shape[0]):
@@ -10,7 +10,7 @@ for i in range(0, copyImage.shape[0]):
         elif copyImage[i,j][0] != 0 and copyImage[i,j][1] != 0 and copyImage[i,j][2] == 255:
             copyImage[i][j] = (0,0,255)
 
-statuss = cv.imwrite('D:/Materi_Kuliah/Semester 6/DeepLearning/Code/ImageDataSet/flag02.png',copyImage)
+statuss = cv.imwrite('../copy.jpg',copyImage)
 cv.imshow("Original", loadImage)
 cv.imshow("Modified Image", copyImage)
 cv.waitKey(0)
