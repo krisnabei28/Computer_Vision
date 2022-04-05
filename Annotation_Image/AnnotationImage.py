@@ -1,6 +1,6 @@
 import cv2 as cv
 
-loadImage = cv.imread('.../sample.jpg')
+loadImage = cv.imread('../sample.jpg')
 
 #Copy Image
 lineImage = loadImage.copy()
