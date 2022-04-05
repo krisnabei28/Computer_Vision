@@ -1,6 +1,6 @@
 import cv2 as cv
 
-loadImage = cv.imread('/home/krisnabei/Documents/Dokumen_Krisna/DeepLearning/Code/ImageDataSet/Picture10.jpg')
+loadImage = cv.imread('../Image09.jpg')
 
 def rotateImage(image, angle, rotatePoint=None):
     (heightImg, widthImg) = loadImage.shape[:2]
