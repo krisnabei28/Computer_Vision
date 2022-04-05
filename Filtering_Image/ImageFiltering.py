@@ -33,7 +33,7 @@ grayCanny = cv.Canny(image,100,100)
 bicubic_img = cv.resize(gray,None, fx = 2, fy = 2, interpolation = cv.INTER_CUBIC)
 bicubic_img = cv.resize(bicubic_img,(420,420))
 
-cv.imshow("Original - Image", gray)
+cv.imshow("Original", gray)
 cv.imshow("Blur - Image", convoleOutput)
 cv.imshow('Sharpen - Image', sharp_img)
 cv.imshow('Edge Detection - Image', grayCanny)
